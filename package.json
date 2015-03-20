@@ -1,9 +1,19 @@
 {
-    "name": "application-name"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
-      "express": "2.5.10"
-    , "jade": ">= 0.0.1"
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "4.9.x",
+    "jade": "*",
+    "pg": "4.x",
+    "pg-native": "*",
+    "body-parser": "*",
+    "connect": "*",
+    "method-override": "2.3.*",
+    "compression": "*",
+    "errorhandler": "1.3.*"
+  },
+  "devDependencies": {
+
   }
 }

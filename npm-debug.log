@@ -1,0 +1,195 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.0.2
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ '/Users/zhuyuan.xiang/workspace/angular-express-blog',
+6 verbose install   [ 'express',
+6 verbose install     'jade',
+6 verbose install     'pg',
+6 verbose install     'pg-native',
+6 verbose install     'body-parser',
+6 verbose install     'connect',
+6 verbose install     'method_override',
+6 verbose install     'compression' ] ]
+7 info preinstall application-name@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose already installed skipping body-parser@* /Users/zhuyuan.xiang/workspace/angular-express-blog
+10 verbose already installed skipping connect@* /Users/zhuyuan.xiang/workspace/angular-express-blog
+11 verbose cache add [ 'method_override@*', null ]
+12 verbose cache add spec="method_override@*" args=["method_override@*",null]
+13 verbose parsed spec { raw: 'method_override@*',
+13 verbose parsed spec   scope: null,
+13 verbose parsed spec   name: 'method_override',
+13 verbose parsed spec   rawSpec: '*',
+13 verbose parsed spec   spec: '*',
+13 verbose parsed spec   type: 'range' }
+14 verbose cache add [ 'compression@*', null ]
+15 verbose cache add spec="compression@*" args=["compression@*",null]
+16 verbose parsed spec { raw: 'compression@*',
+16 verbose parsed spec   scope: null,
+16 verbose parsed spec   name: 'compression',
+16 verbose parsed spec   rawSpec: '*',
+16 verbose parsed spec   spec: '*',
+16 verbose parsed spec   type: 'range' }
+17 verbose parsed spec { raw: 'method_override@*',
+17 verbose parsed spec   scope: null,
+17 verbose parsed spec   name: 'method_override',
+17 verbose parsed spec   rawSpec: '*',
+17 verbose parsed spec   spec: '*',
+17 verbose parsed spec   type: 'range' }
+18 verbose addNamed [ 'method_override', '*' ]
+19 verbose addNamed [ null, '*' ]
+20 verbose parsed spec { raw: 'compression@*',
+20 verbose parsed spec   scope: null,
+20 verbose parsed spec   name: 'compression',
+20 verbose parsed spec   rawSpec: '*',
+20 verbose parsed spec   spec: '*',
+20 verbose parsed spec   type: 'range' }
+21 verbose addNamed [ 'compression', '*' ]
+22 verbose addNamed [ null, '*' ]
+23 silly lockFile 60acd29f-method-override method_override@*
+24 verbose lock method_override@* /Users/zhuyuan.xiang/.npm/60acd29f-method-override.lock
+25 silly lockFile 58c71e60-compression compression@*
+26 verbose lock compression@* /Users/zhuyuan.xiang/.npm/58c71e60-compression.lock
+27 silly addNameRange { name: 'method_override', range: '*', hasData: false }
+28 verbose mapToRegistry name method_override
+29 verbose mapToRegistry uri https://registry.npmjs.org/method_override
+30 verbose already installed skipping express@4.9.x /Users/zhuyuan.xiang/workspace/angular-express-blog
+31 verbose already installed skipping jade@* /Users/zhuyuan.xiang/workspace/angular-express-blog
+32 silly addNameRange { name: 'compression', range: '*', hasData: false }
+33 verbose mapToRegistry name compression
+34 verbose mapToRegistry uri https://registry.npmjs.org/compression
+35 verbose request on initialization, where is /method_override
+36 verbose request after pass 1, where is /method_override
+37 verbose request url raw /method_override
+38 verbose request resolving registry [ 'https://registry.npmjs.org/', './method_override' ]
+39 verbose request after pass 2, where is https://registry.npmjs.org/method_override
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 15:52:53
+42 verbose request id cd83ef85ee46d919
+43 http request GET https://registry.npmjs.org/method_override
+44 verbose already installed skipping pg@4.x /Users/zhuyuan.xiang/workspace/angular-express-blog
+45 verbose already installed skipping pg-native@* /Users/zhuyuan.xiang/workspace/angular-express-blog
+46 verbose request on initialization, where is /compression
+47 verbose request after pass 1, where is /compression
+48 verbose request url raw /compression
+49 verbose request resolving registry [ 'https://registry.npmjs.org/', './compression' ]
+50 verbose request after pass 2, where is https://registry.npmjs.org/compression
+51 verbose request no auth needed
+52 info attempt registry request try #1 at 15:52:53
+53 verbose etag "7O3GM30ZDCIKQ58KLZP65LWAP"
+54 http request GET https://registry.npmjs.org/compression
+55 http 304 https://registry.npmjs.org/compression
+56 silly registry.get cb [ 304,
+56 silly registry.get   { date: 'Fri, 20 Mar 2015 07:52:52 GMT',
+56 silly registry.get     server: 'Apache',
+56 silly registry.get     via: '1.1 varnish',
+56 silly registry.get     'last-modified': 'Fri, 20 Mar 2015 07:52:52 GMT',
+56 silly registry.get     'cache-control': 'max-age=60',
+56 silly registry.get     etag: '"7O3GM30ZDCIKQ58KLZP65LWAP"',
+56 silly registry.get     age: '36',
+56 silly registry.get     'x-served-by': 'cache-nrt6123-NRT',
+56 silly registry.get     'x-cache': 'HIT',
+56 silly registry.get     'x-cache-hits': '1',
+56 silly registry.get     'x-timer': 'S1426837972.127530,VS0,VE1',
+56 silly registry.get     vary: 'Accept',
+56 silly registry.get     'content-length': '0',
+56 silly registry.get     'keep-alive': 'timeout=10, max=50',
+56 silly registry.get     connection: 'Keep-Alive' } ]
+57 verbose etag https://registry.npmjs.org/compression from cache
+58 silly addNameRange number 2 { name: 'compression', range: '*', hasData: true }
+59 silly addNameRange versions [ 'compression',
+59 silly addNameRange   [ '1.0.0',
+59 silly addNameRange     '1.0.1',
+59 silly addNameRange     '1.0.2',
+59 silly addNameRange     '1.0.3',
+59 silly addNameRange     '1.0.4',
+59 silly addNameRange     '1.0.5',
+59 silly addNameRange     '1.0.6',
+59 silly addNameRange     '1.0.7',
+59 silly addNameRange     '1.0.8',
+59 silly addNameRange     '1.0.9',
+59 silly addNameRange     '1.0.10',
+59 silly addNameRange     '1.0.11',
+59 silly addNameRange     '1.1.0',
+59 silly addNameRange     '1.1.1',
+59 silly addNameRange     '1.1.2',
+59 silly addNameRange     '1.2.0',
+59 silly addNameRange     '1.2.1',
+59 silly addNameRange     '1.2.2',
+59 silly addNameRange     '1.3.0',
+59 silly addNameRange     '1.3.1',
+59 silly addNameRange     '1.4.0',
+59 silly addNameRange     '1.4.1',
+59 silly addNameRange     '1.4.2',
+59 silly addNameRange     '1.4.3' ] ]
+60 verbose addNamed [ 'compression', '1.4.3' ]
+61 verbose addNamed [ '1.4.3', '1.4.3' ]
+62 silly lockFile 171ae856-compression-1-4-3 compression@1.4.3
+63 verbose lock compression@1.4.3 /Users/zhuyuan.xiang/.npm/171ae856-compression-1-4-3.lock
+64 silly lockFile 171ae856-compression-1-4-3 compression@1.4.3
+65 silly lockFile 171ae856-compression-1-4-3 compression@1.4.3
+66 silly lockFile 58c71e60-compression compression@*
+67 silly lockFile 58c71e60-compression compression@*
+68 http 404 https://registry.npmjs.org/method_override
+69 verbose headers { date: 'Fri, 20 Mar 2015 07:52:52 GMT',
+69 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+69 verbose headers   'content-type': 'application/json',
+69 verbose headers   'cache-control': 'max-age=0',
+69 verbose headers   'content-length': '51',
+69 verbose headers   'accept-ranges': 'bytes',
+69 verbose headers   via: '1.1 varnish',
+69 verbose headers   age: '0',
+69 verbose headers   'x-served-by': 'cache-nrt6127-NRT',
+69 verbose headers   'x-cache': 'MISS',
+69 verbose headers   'x-cache-hits': '0',
+69 verbose headers   'x-timer': 'S1426837971.975414,VS0,VE687',
+69 verbose headers   'keep-alive': 'timeout=10, max=50',
+69 verbose headers   connection: 'Keep-Alive' }
+70 silly registry.get cb [ 404,
+70 silly registry.get   { date: 'Fri, 20 Mar 2015 07:52:52 GMT',
+70 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+70 silly registry.get     'content-type': 'application/json',
+70 silly registry.get     'cache-control': 'max-age=0',
+70 silly registry.get     'content-length': '51',
+70 silly registry.get     'accept-ranges': 'bytes',
+70 silly registry.get     via: '1.1 varnish',
+70 silly registry.get     age: '0',
+70 silly registry.get     'x-served-by': 'cache-nrt6127-NRT',
+70 silly registry.get     'x-cache': 'MISS',
+70 silly registry.get     'x-cache-hits': '0',
+70 silly registry.get     'x-timer': 'S1426837971.975414,VS0,VE687',
+70 silly registry.get     'keep-alive': 'timeout=10, max=50',
+70 silly registry.get     connection: 'Keep-Alive' } ]
+71 silly lockFile 60acd29f-method-override method_override@*
+72 silly lockFile 60acd29f-method-override method_override@*
+73 verbose stack Error: 404 Not Found: method_override
+73 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:258:14)
+73 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:197:65)
+73 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:237:22)
+73 verbose stack     at Request.emit (events.js:98:17)
+73 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1146:14)
+73 verbose stack     at Request.emit (events.js:117:20)
+73 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1097:12)
+73 verbose stack     at IncomingMessage.emit (events.js:117:20)
+73 verbose stack     at _stream_readable.js:943:16
+73 verbose stack     at process._tickCallback (node.js:419:13)
+74 verbose statusCode 404
+75 verbose pkgid method_override
+76 verbose cwd /Users/zhuyuan.xiang/workspace/angular-express-blog
+77 error Darwin 14.1.0
+78 error argv "node" "/usr/local/bin/npm" "install"
+79 error node v0.10.32
+80 error npm  v2.0.2
+81 error code E404
+82 error 404 Not Found: method_override
+82 error 404
+82 error 404 'method_override' is not in the npm registry.
+82 error 404 You should bug the author to publish it (or use the name yourself!)
+82 error 404 It was specified as a dependency of 'application-name'
+82 error 404
+82 error 404 Note that you can also install from a
+82 error 404 tarball, folder, http url, or git url.
+83 verbose exit [ 1, true ]
